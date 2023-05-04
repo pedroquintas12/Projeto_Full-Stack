@@ -1,5 +1,4 @@
 const roteador=require('express').Router()
-const { Json } = require('sequelize/types/utils')
 const Fornecedor = require('./Fornecedor')
 const TabelaFornecedor= require('./TabelaFornecedor')
 
@@ -62,5 +61,7 @@ roteador.put('/:idFornecedor' , async (requisicao, resposta)=>{
     }
 
 })
+
+roteador.delete
 
 module.exports=roteador

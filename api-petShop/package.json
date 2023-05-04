@@ -1,7 +1,6 @@
 {
-  "name": "projeto_full-stack",
+  "name": "api-petshop",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,15 +8,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "body": "^5.1.0",
     "body-parser": "^1.20.2",
     "config": "^3.3.9",
     "express": "^4.18.2",
     "mysql2": "^3.2.4",
     "sequelize": "^6.31.1"
-  },
-  "devDependencies": {
-    "@babel/helper-compilation-targets": "^7.21.5"
   }
 }
