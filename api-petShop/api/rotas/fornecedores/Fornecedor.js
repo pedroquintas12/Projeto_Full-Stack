@@ -12,7 +12,7 @@ class Fornecedor{
         this.dataCriacao = dataCriacao
         this.dataAtualizacao = dataAtualizacao
         this.versao = versao
-
+        
     }
 
    async criar(){
