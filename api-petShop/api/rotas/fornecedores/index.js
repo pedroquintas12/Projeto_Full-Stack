@@ -34,7 +34,7 @@ roteador.post('/', async (requisicao, resposta, proximo) =>{
    }
 })
 
-roteador.get('/:idFornecedor', async (requisicao, resposta, proximo)=> {
+roteador.get('/:idFornecedor', async (requisicao, resposta, proximo)=> { 
    
     try{
         const id =  requisicao.params.idFornecedor
